@@ -1,5 +1,7 @@
 # MOE - Mado Operating Extension
 
+![screenshot](docs/screenshot.png)
+
 Lightweight desktop mascot and utility app for Windows.
 ("Mado" means "Window" in Japanese)
 
