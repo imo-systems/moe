@@ -56,3 +56,11 @@ MOE は付箋メモや時計ウィジェットを備えた、Windows用の常駐
 マスコットはPNG画像を用意する事で自由に追加できる予定です。
 仕様は準備中です。
 .rom は独自の難読化パッケージファイルです。
+
+## SmartScreenによる保護および対処
+Microsoft Defender SmartScreen はコンピュータを保護する重要な仕組みです。
+配布元および内容をご確認のうえ、ご自身の判断で実行してください。
+不安がある場合は実行をお控えください。
+
+![screenshot](docs/smartscreen_0.png)
+![screenshot](docs/smartscreen_1.png)
