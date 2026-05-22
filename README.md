@@ -2,61 +2,46 @@
 
 ![screenshot](docs/screenshot.png)
 
-Lightweight desktop mascot and utility app for Windows.
-("Mado" means "Window" in Japanese)
+## 特徴
 
-## Features
+- Windows 用の軽量なデスクトップマスコット
+- インストール不要
+- レジストリ不使用
 
-- Native Windows app
-- Written in C++17 / Win32
-- Lightweight desktop mascot
-- Sticky memo widget
-- Clock widget
-- No installer
-- No registry usage
-
-## Download
-
-Download the latest release from:
+## ダウンロード
 
 https://github.com/imo-systems/moe/releases
 
-## Installation
+## 使用方法
 
-1. Download `moe-x.x.x.zip`
-2. Extract the zip file
-3. Run `moe.exe`
+- moe-x.x.x.zip をダウンロード
+- zip を任意のフォルダに解凍
+- moe.exe を実行
+- 不要になったらフォルダごと削除（レジストリは使用しません）
 
-## Uninstallation
+## 動作環境
 
-Delete the extracted folder.
+Windows 10 or later (64 bit)
 
-MOE does not use the Windows registry.
+## 開発ポリシー
 
-## Requirements
+### Mado Operating Extension
+ユーザーの作業を妨げないことを第一に考え、派手で目立つ機能はありません。
+『MOE』はMado（窓=Windows）のUXをさりげなく拡張することを目的としています。
 
-- Windows 10 or later (64 bit)
+### Minimal Overhead Environment
+アイドル時のCPU使用率は Under 1%
+『MOE』はC++/Win32で開発された、軽量なWindowsネイティブアプリケーションです。リソース消費は可能な限り抑える設計を心がけています。
 
-## License
+### Movable Offline Executable
+インストール？アカウント？そんなものは必要ない。ただ実行するのみ。
+『MOE』はZIP展開後すぐに実行可能なスタンドアロン設計のアプリケーションです。
+
+## ライセンス
 
 MIT License
 
-## Author
+## 著者
 
 IMO_SYSTEMS  
 https://imosys.moe/
-
----
-
-## 概要
-* 『MOE』はWindows用のデスクトップマスコットです。PNG画像１枚で自由にキャラクターを追加できます。
-* マスコットのほか、付箋メモや時計ウィジェットを備えています。
-* 軽量な『MOE』はEXE単独で実行可能。レジストリは使用せず、ユーザーのPC環境を汚しません。 
-
-## SmartScreenによる保護および対処
-Microsoft Defender SmartScreen はコンピュータを保護する重要な仕組みです。
-配布元および内容をご確認のうえ、ご自身の判断で実行してください。
-不安がある場合は実行をお控えください。
-
-![screenshot](docs/smartscreen_0.png)
-![screenshot](docs/smartscreen_1.png)
