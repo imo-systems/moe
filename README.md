@@ -23,20 +23,6 @@ https://github.com/imo-systems/moe/releases
 
 Windows 10 or later (64 bit)
 
-## 開発ポリシー
-
-### Mado Operating Extension
-ユーザーの作業を妨げないことを第一に考え、派手で目立つ機能はありません。
-『MOE』はMado（窓=Windows）のUXをさりげなく拡張することを目的としています。
-
-### Minimal Overhead Environment
-アイドル時のCPU使用率は Under 1%
-『MOE』はC++/Win32で開発された、軽量なWindowsネイティブアプリケーションです。リソース消費は可能な限り抑える設計を心がけています。
-
-### Movable Offline Executable
-インストール？アカウント？そんなものは必要ない。ただ実行するのみ。
-『MOE』はZIP展開後すぐに実行可能なスタンドアロン設計のアプリケーションです。
-
 ## ライセンス
 
 MIT License
